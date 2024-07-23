@@ -4,7 +4,7 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
 `
 الجهاز رقم 
 `,
-            '©بوت ()',
+            '©بوت (عبدالله الجندي)',
             'https://telegra.ph/file/e9239fa926d3a2ef48df2.jpg',
 [['[ شراء ]', '.شراء-م (تكييفات) جهاز رقم']],
 [], [], []
@@ -13,7 +13,7 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
 `
 الجهاز رقم 
 `,
-            '©بوت ()',
+            '©بوت (عبدالله الجندي)',
             'https://telegra.ph/file/e9239fa926d3a2ef48df2.jpg',
 [['[ شراء ]', '.شراء-م (تكييفات) جهاز رقم']],
 [], [], []
@@ -22,7 +22,7 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
 `
 الجهاز رقم 
 `,
-            '©بوت ()',
+            '©بوت (عبدالله الجندي)',
             'https://telegra.ph/file/e9239fa926d3a2ef48df2.jpg',
 [['[ شراء ]', '.شراء-م (تكييفات) جهاز رقم']],
 [], [], []
@@ -31,7 +31,7 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
 `
 الجهاز رقم 
 `,
-            '©بوت ()',
+            '©بوت (عبدالله الجندي)',
             'https://telegra.ph/file/e9239fa926d3a2ef48df2.jpg',
 [['[ شراء ]', '.شراء-م (تكييفات) جهاز رقم']],
 [], [], []
@@ -42,7 +42,7 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
 // تعريف رساله الازرار
 
     // إرسال رسالة الرول
-    await conn.sendCarousel(m.chat, '_*قسم شراء الاجهزه المنزليه الجديده*_', '©JoAnimi•3MK', '_*التكييفات الجديده المتاحه :*_', messages, m);
+    await conn.sendCarousel(m.chat, '_*قسم شراء الاجهزه المنزليه الجديده*_', '', '_*التكييفات الجديده المتاحه :*_', messages, m);
 }
 
 handler.command = /^(تكييفات-م)$/i; // Command to trigger the handler function
