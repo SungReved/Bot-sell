@@ -11,7 +11,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
         var joanimiimg = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/file/2784677013ba9efe6cc03.jpg'}}, { upload: conn.waUploadToServer })
         const interactiveMessage = {
             body: { text: ``.trim() },
-            footer: { text: `©بوت ()`.trim() },  
+            footer: { text: `©بوت (عبدالله الجندي)`.trim() },  
             header: {
                 title: `*عاوز تشتري ايه يا* @${mentionId.split('@')[0]}`,
                 subtitle: ``,
@@ -23,49 +23,49 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
                               {
                                   name: 'quick_reply',
                                   buttonParamsJson: JSON.stringify({
-                                      display_text: '[ مفروشات ]',
+                                      display_text: ' مفروشات ',
                                       id: `.مفروشات-م`
                                   })
                               },
                               {
                                   name: 'quick_reply',
                                   buttonParamsJson: JSON.stringify({
-                                      display_text: '[ تلاجات ]',
+                                      display_text: ' تلاجات ',
                                       id: `.تلاجات-م`
                                   })
                               },
                               {
                                   name: 'quick_reply',
                                   buttonParamsJson: JSON.stringify({
-                                      display_text: '[ غسالات ]',
+                                      display_text: ' غسالات ',
                                       id: `.غسالات-م`
                                   })
                               },
                               {
                                   name: 'quick_reply',
                                   buttonParamsJson: JSON.stringify({
-                                      display_text: '[ تكييفات ]',
+                                      display_text: ' تكييفات ',
                                       id: `.تكييفات-م`
                                   })
                               },
                               {
                                   name: 'quick_reply',
                                   buttonParamsJson: JSON.stringify({
-                                      display_text: '[ بوتاجازات ]',
+                                      display_text: ' بوتاجازات ',
                                       id: `.بوتاجازات-م`
                                   })
                               },
                               {
                                   name: 'quick_reply',
                                   buttonParamsJson: JSON.stringify({
-                                      display_text: '[ ادوات مطبخ ]',
+                                      display_text: ' ادوات مطبخ ',
                                       id: `.ادوات-مطبخ-م`
                                   })
                               },
                               {
                                   name: 'cta_url',
                                   buttonParamsJson: JSON.stringify({
-                                      display_text: '[ صفحة البوت ]',
+                                      display_text: ' صفحة البوت ',
                                       url: 'https://www.google.com',
                                       merchant_url: ''
                                   })
