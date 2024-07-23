@@ -8,7 +8,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
     const mentionId = m.key.participant || m.key.remoteJid;
 
     if (device !== 'desktop' || device !== 'web') {      
-        var joanimiimg = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/تتياي-07-23'}}, { upload: conn.waUploadToServer })
+        var joanimiimg = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/file/0bc77b4eedc6d8ea7389c.jpg'}}, { upload: conn.waUploadToServer })
         const interactiveMessage = {
             body: { text: ``.trim() },
             footer: { text: `©(عبدالله الجندي) بوت`.trim() },  
