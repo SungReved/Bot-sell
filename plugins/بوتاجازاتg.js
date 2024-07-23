@@ -4,7 +4,7 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
 `
 الجهاز رقم 
 `,
-            '©بوت ()',
+            '©بوت (عبدالله الجندي)',
             'https://telegra.ph/file/e9239fa926d3a2ef48df2.jpg',
 [['[ شراء ]', '.شراء-ج (بوتاجازات) جهاز رقم']],
 [], [], []
@@ -13,7 +13,7 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
 `
 الجهاز رقم 
 `,
-            '©بوت ()',
+            '©بوت (عبدالله الجندي)',
             'https://telegra.ph/file/e9239fa926d3a2ef48df2.jpg',
 [['[ شراء ]', '.شراء-ج (بوتاجازات) جهاز رقم']],
 [], [], []
@@ -22,7 +22,7 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
 `
 الجهاز رقم 
 `,
-            '©بوت ()',
+            '©بوت (عبدالله الجندي)',
             'https://telegra.ph/file/e9239fa926d3a2ef48df2.jpg',
 [['[ شراء ]', '.شراء-ج (بوتاجازات) جهاز رقم']],
 [], [], []
@@ -31,7 +31,7 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
 `
 الجهاز رقم 
 `,
-            '©بوت ()',
+            '©بوت (عبدالله الجندي)',
             'https://telegra.ph/file/e9239fa926d3a2ef48df2.jpg',
 [['[ شراء ]', '.شراء-ج (بوتاجازات) جهاز رقم']],
 [], [], []
