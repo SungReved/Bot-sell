@@ -13,7 +13,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
             body: { text: ``.trim() },
             footer: { text: `©() بوت`.trim() },  
             header: {
-                title: `*اهلا بيك يا* @${mentionId.split('@')[0]} *في بوت () لبيع وشراء الادوات المنزليه* حابب تعمل ايه؟`,
+                title: `*اهلا بيك يا* @${mentionId.split('@')[0]} *في بوت (عبدالله الجندي) لبيع وشراء الادوات و الاجهزه و المفروشات المنزليه* حابب تعمل ايه؟`,
                 subtitle: ``,
                 hasMediaAttachment: true,
                 imageMessage: joanimiimg.imageMessage,
@@ -29,7 +29,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				title: 'حابب تشتري ايه؟',
   						  		    rows: [
   						  		    	{
-  						  		    		header: 'ادوات منزليه جديده',
+  						  		    		header: 'ادوات و اجهزه منزليه و مفروشات جديده',
   										      title: '',
   									    	  description: '',
   								    		  id: '.ادوات-جديده'
@@ -39,7 +39,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  			{
   						  				rows: [
   						  					{
-  						  		    		header: 'ادوات منزليه مستعمله',
+  						  		    		header: 'ادوات و اجهزه و مفروشات منزليه مستعمله',
   										      title: '',
   									    	  description: '',
   								    		  id: '.ادوات-مستعمله'
@@ -58,7 +58,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				title: 'حابب تبيع ايه؟',
   						  		    rows: [
   						  		    	{
-  						  		    		header: 'ادوات منزليه جديده',
+  						  		    		header: 'ادوات او اجهزه منزليه او مفروشات جديده',
   										      title: '',
   									    	  description: '',
   								    		  id: '.بيع الشخص دا عاوز يبيع (ادوات منزليه مستعمله)'
@@ -68,7 +68,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  			{
   						  				rows: [
   						  					{
-  						  		    		header: 'ادوات منزليه مستعمله',
+  						  		    		header: 'ادوات او اجهزه  منزليه او مفروشات مستعمله',
   										      title: '',
   									    	  description: '',
   								    		  id: '.بيع الشخص دا عاوز يبيع (ادوات منزليه مستعمله)'
