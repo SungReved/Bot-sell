@@ -11,7 +11,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
         var joanimiimg = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/file/2784677013ba9efe6cc03.jpg'}}, { upload: conn.waUploadToServer })
         const interactiveMessage = {
             body: { text: ``.trim() },
-            footer: { text: `©() بوت`.trim() },  
+            footer: { text: `©(عبدالله الجندي) بوت`.trim() },  
             header: {
                 title: `*اهلا بيك يا* @${mentionId.split('@')[0]} *في بوت (عبدالله الجندي) لبيع وشراء الادوات و الاجهزه و المفروشات المنزليه* حابب تعمل ايه؟`,
                 subtitle: ``,
